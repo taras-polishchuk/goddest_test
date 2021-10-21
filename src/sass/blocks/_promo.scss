@@ -1,0 +1,48 @@
+.promo {
+    &__wrapper {
+        position: relative;
+    }
+    &__title {
+        padding-top: 124px; 
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF;
+        span {
+            font-weight: 800;
+            text-transform: uppercase;
+
+        }
+    }
+    &__subtitle {
+        margin-top: 12px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    &__btn {
+        margin-top: 69px;
+        width: 255px;
+        height: 48px;
+        background: linear-gradient(260.2deg, #6FCCDD -101.8%, #F27AAA 19.84%, #9278B6 132.12%), #C4C4C4;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        border: none;
+        border-radius: 5px;
+        text-transform: lowercase;
+        font-weight: 600;
+        font-variant: small-caps;
+        font-size: 15px;
+        line-height: 47px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__image {
+        position: absolute;
+        top: 33px;
+        left: 305px;
+        animation-duration: 5s;
+    }
+}
